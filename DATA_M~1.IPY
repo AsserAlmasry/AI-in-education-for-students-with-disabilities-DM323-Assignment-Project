@@ -167,7 +167,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "EEDR7I75K_wM",
-        "outputId": "3d25a8a3-2e37-4216-b5ba-325c0bfb64a9"
+        "outputId": "09495205-936f-4457-9290-dc057e1b0c43"
       },
       "execution_count": null,
       "outputs": [
@@ -1480,7 +1480,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "# **Applying the Linear interpolate method to handle the missing values**"
+        "# **Applying the Linear interpolation method to handle the missing values**"
       ],
       "metadata": {
         "id": "AL3RM29rgCyH"
@@ -2560,7 +2560,7 @@
     {
       "cell_type": "markdown",
       "source": [
-        "# **Principle Component Analysis**"
+        "# **Principle Component Analysis (PCA)**"
       ],
       "metadata": {
         "id": "MskQU_vRgih_"
@@ -2847,24 +2847,25 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "id": "LlsBlTiPQRp6",
-        "outputId": "a53abf16-9e3e-4ded-8dc4-2e2b0e0b2af8"
+        "id": "yN8zfVSYRp-g",
+        "outputId": "3e04bb13-2a6b-48e6-9830-baf895da295a"
       },
       "execution_count": null,
       "outputs": [
         {
           "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "/usr/local/lib/python3.10/dist-packages/ipykernel/ipkernel.py:283: DeprecationWarning: `should_run_async` will not call `transform_cell` automatically in the future. Please pass the result to `transformed_cell` argument and any exception that happen during thetransform in `preprocessing_exc_tuple` in IPython 7.17 and above.\n",
+            "  and should_run_async(code)\n"
+          ]
+        },
+        {
+          "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Collecting scikit-fuzzy\n",
-            "  Downloading scikit_fuzzy-0.5.0-py2.py3-none-any.whl.metadata (2.6 kB)\n",
-            "Collecting matplotlip\n",
-            "  Downloading matplotlip-0.2-py3-none-any.whl.metadata (700 bytes)\n",
-            "Downloading scikit_fuzzy-0.5.0-py2.py3-none-any.whl (920 kB)\n",
-            "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m920.8/920.8 kB\u001b[0m \u001b[31m10.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\n",
-            "\u001b[?25hDownloading matplotlip-0.2-py3-none-any.whl (1.8 kB)\n",
-            "Installing collected packages: scikit-fuzzy, matplotlip\n",
-            "Successfully installed matplotlip-0.2 scikit-fuzzy-0.5.0\n"
+            "Requirement already satisfied: scikit-fuzzy in /usr/local/lib/python3.10/dist-packages (0.5.0)\n",
+            "Requirement already satisfied: matplotlip in /usr/local/lib/python3.10/dist-packages (0.2)\n"
           ]
         }
       ]
